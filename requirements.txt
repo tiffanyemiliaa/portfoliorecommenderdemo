@@ -9,6 +9,7 @@ applaunchservices==0.2.1
 appnope @ file:///opt/concourse/worker/volumes/live/0291c9e1-4b15-459f-623e-2770f55be269/volume/appnope_1594338395037/work
 appscript @ file:///opt/concourse/worker/volumes/live/50ca4c96-3090-40bb-6981-3a6114ed0af4/volume/appscript_1594840187551/work
 argh==0.26.2
+argon2-cffi==21.1.0
 asn1crypto @ file:///opt/concourse/worker/volumes/live/29c500db-6cdf-4cc7-7df8-fca74d6f0b64/volume/asn1crypto_1594339172552/work
 astor==0.8.1
 astroid @ file:///opt/concourse/worker/volumes/live/21fd14a9-2a7e-484b-7394-5a9912cdcf80/volume/astroid_1592498459180/work
@@ -140,7 +141,7 @@ nbformat==5.0.7
 networkx @ file:///tmp/build/80754af9/networkx_1594377231366/work
 nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
 nose @ file:///opt/concourse/worker/volumes/live/a029938e-1732-4cd8-5b98-0542283d158b/volume/nose_1594377915100/work
-notebook==6.0.3
+notebook==6.4.4
 numba==0.50.1
 numexpr==2.7.1
 numpy==1.19.5
@@ -158,7 +159,7 @@ partd==1.1.0
 path==13.1.0
 pathlib2 @ file:///opt/concourse/worker/volumes/live/de518564-0d9f-405e-472b-38136f0c2169/volume/pathlib2_1594381084269/work
 pathtools==0.1.2
-patsy==0.5.1
+patsy==0.5.2
 pep8==1.7.1
 pexpect @ file:///opt/concourse/worker/volumes/live/8701bb20-ad87-46c7-5108-30c178cf97e5/volume/pexpect_1594383388344/work
 pickleshare @ file:///opt/concourse/worker/volumes/live/93ec39d8-05bb-4f84-7efc-98735bc39b70/volume/pickleshare_1594384101884/work
@@ -169,6 +170,7 @@ plotly==5.0.0
 plotly-express==0.4.1
 pluggy==0.13.1
 ply==3.11
+pmdarima==1.8.4
 prometheus-client==0.8.0
 prompt-toolkit==3.0.5
 protobuf==3.15.3
@@ -216,6 +218,7 @@ ruamel-yaml==0.15.87
 scikit-image==0.16.2
 scikit-learn==0.24.1
 scipy @ file:///opt/concourse/worker/volumes/live/7f5e51f8-abf3-4409-4c56-a4fb14cc9869/volume/scipy_1593104185999/work
+scorecardpy @ git+git://github.com/shichenxie/scorecardpy.git@b1b7b77d20975e59451e3f8e7dcb055beee3c5c2
 seaborn==0.11.2
 selenium==3.141.0
 Send2Trash==1.5.0
@@ -239,7 +242,7 @@ sphinxcontrib-websupport @ file:///tmp/build/80754af9/sphinxcontrib-websupport_1
 spyder @ file:///opt/concourse/worker/volumes/live/0e97f897-b36b-4f78-7283-e99903208a48/volume/spyder_1594831780108/work
 spyder-kernels @ file:///opt/concourse/worker/volumes/live/682c8d56-759f-49eb-7914-dbce4a625209/volume/spyder-kernels_1594751614984/work
 SQLAlchemy @ file:///opt/concourse/worker/volumes/live/45657106-f60d-42e1-6501-7d65be3b36ab/volume/sqlalchemy_1593446313078/work
-statsmodels==0.11.1
+statsmodels==0.13.0
 streamlit==0.82.0
 sympy @ file:///opt/concourse/worker/volumes/live/32ef3b19-6d5e-459b-54bf-1bfa312324b4/volume/sympy_1594236601710/work
 tables==3.6.1
@@ -259,7 +262,7 @@ textblob==0.15.3
 threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
 toml @ file:///tmp/build/80754af9/toml_1592853716807/work
 toolz==0.10.0
-tornado==6.0.4
+tornado==6.1
 tqdm @ file:///tmp/build/80754af9/tqdm_1593446365756/work
 traitlets==4.3.3
 typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1592847887441/work
