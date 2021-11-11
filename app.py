@@ -1,10 +1,9 @@
 import portfolio_optimization
-import portfolio_forecast
+# import portfolio_forecast
 import streamlit as st
 
 PAGES = {
     "Get optimal portfolio": portfolio_optimization,
-    "Forecasted portfolio performance": portfolio_forecast,
 }
 
 st.sidebar.title('Portfolio Optimisation Model')
